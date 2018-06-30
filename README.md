@@ -13,6 +13,7 @@ cherub - 面向开发者的 HTML5 构建工具，**安装即用**，可用来制
 另外 `node-sass` 和 `phantomjs` 这两个包需要编译，可以设置 `SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/`
 和 `PHANTOMJS_CDNURL=https://npm.taobao.org/mirrors/phantomjs/`，安装已经编译好的版本。
 
+
 ```sh
 # 全局安装 Node >= 6
 # mac/linux
