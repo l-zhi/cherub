@@ -1,49 +1,52 @@
 {
-  "name": "O2h5-boilerplate",
-  "version": "1.0.0",
+  "name": "cherub",
+  "version": "1.1.0",
   "description": "",
-  "main": "project/js/bundle.js",
-  "directories": {
-    "test": "test"
+  "main": "main.js",
+  "bin": {
+    "cherub": "./tasks/index.js"
   },
-  "scripts": {
-    "build": "rm -rf project/ & NODE_ENV=production webpack --config webpack.config.build.js --progress --colors",
-    "start": "webpack-dev-server --history-api-fallback --config webpack.config.dev.js --inline --hot --progress --colors --host 0.0.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:l-zhi/O2H5-Boilerplate.git"
-  },
-  "keywords": [
-    "HTML5 Event Boilerplate"
-  ],
-  "author": "Fan Lizhi",
-  "bugs": {
-    "url": "https://github.com/l-zhi/O2H5-Boilerplate/issues"
+  "author": "l-zhi",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^8.1.0",
+    "chalk": "^2.3.2",
+    "clean-webpack-plugin": "^0.1.18",
+    "commander": "^2.15.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "cross-spawn": "^6.0.5",
+    "css-loader": "^0.28.10",
+    "eslint": "^4.17.0",
+    "exports-loader": "^0.7.0",
+    "file-loader": "^1.1.9",
+    "html-webpack-plugin": "^3.2.0",
+    "husky": "^0.14.3",
+    "inquirer": "^6.0.0",
+    "ip": "^1.1.5",
+    "jsdoc": "^3.5.5",
+    "lint-staged": "^6.1.0",
+    "lodash": "^4.17.5",
+    "ncp": "^2.0.0",
+    "node-sass": "^4.7.2",
+    "opn": "^5.3.0",
+    "postcss-loader": "^2.1.1",
+    "postcss-pxtorem": "^4.0.1",
+    "postcss-sprites": "^4.2.1",
+    "sass-loader": "^6.0.6",
+    "script-loader": "^0.7.2",
+    "style-loader": "^0.20.2",
+    "ts-loader": "^4.4.1",
+    "typescript": "^2.9.1",
+    "uglifyjs-webpack-plugin": "^1.2.0",
+    "webpack": "^4.12.0",
+    "webpack-dev-middleware": "^3.1.3",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.2",
+    "write-file-webpack-plugin": "^4.2.0"
   },
   "devDependencies": {
-    "autoprefixer": "^6.4.1",
-    "css-loader": "^0.25.0",
-    "exports-loader": "^0.6.3",
-    "extract-text-webpack-plugin": "^1.0.1",
-    "file-loader": "^0.9.0",
-    "html-loader": "^0.4.4",
-    "html-webpack-plugin": "^2.22.0",
-    "image-webpack-loader": "^2.0.0",
-    "lodash": "^4.16.4",
-    "node-sass": "^3.10.1",
-    "open-browser-webpack-plugin": "0.0.2",
-    "postcss-import": "^8.1.2",
-    "postcss-loader": "^0.13.0",
-    "postcss-mixins": "^5.2.0",
-    "postcss-plugin-px2rem": "^0.6.0",
-    "postcss-sprites": "^4.0.0",
-    "precss": "^1.4.0",
-    "sass-loader": "^4.0.2",
-    "script-loader": "^0.7.0",
-    "style-loader": "^0.13.1",
-    "url-loader": "^0.5.7",
-    "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.16.2"
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "ora": "^2.1.0"
   }
 }

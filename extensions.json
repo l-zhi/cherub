@@ -1,0 +1,8 @@
+{
+	// See http://go.microsoft.com/fwlink/?LinkId=827846
+	"recommendations": [
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"streetsidesoftware.code-spell-checker"
+	]
+}

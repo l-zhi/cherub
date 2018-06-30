@@ -1,0 +1,17 @@
+@import 'base';
+@media screen and (max-width: 320px) {
+  html{
+    font-size: 64PX!important;
+  }
+}
+@media screen and (min-width: 540px) {
+  html{
+    font-size: 108PX!important;
+  }
+}
+
+body{
+  width: 750px;
+  height: 50px;
+  margin: 0 auto;
+}
