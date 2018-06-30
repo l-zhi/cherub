@@ -1,0 +1,12 @@
+---
+dist: trusty
+language: node_js
+node_js: stable
+install: 
+  - npm install
+script: 
+  - npm link && cherub create demo -t base
+  - cherub create demo2 -t pwa
+branches:
+  only:
+    - master
