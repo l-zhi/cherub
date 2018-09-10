@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="cherub" src="https://test-15149.oss-cn-hangzhou.aliyuncs.com/test/cherub.svg" width="200">
+  <img alt="cherub" src="https://gw.alicdn.com/tfs/TB1kSLzw0cnBKNjSZR0XXcFqFXa-512-512.svg" width="200">
 </p>
 
 ## Install [![npm](https://img.shields.io/npm/v/cherub.svg)](https://www.npmjs.com/package/cherub) [![Build Status](https://travis-ci.org/l-zhi/cherub.svg?branch=master)](https://travis-ci.org/l-zhi/cherub) 
