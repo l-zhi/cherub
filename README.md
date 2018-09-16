@@ -4,73 +4,70 @@
 
 ## Install [![npm](https://img.shields.io/npm/v/cherub.svg)](https://www.npmjs.com/package/cherub) [![Build Status](https://travis-ci.org/l-zhi/cherub.svg?branch=master)](https://travis-ci.org/l-zhi/cherub) 
 
+cherub - a professional front-end templates generator to help you getting started with a new project based on HTML5 Boilerplate, also support Typescript, include `base template` & `PWA template`。
 
-cherub - 面向开发者的 HTML5 构建工具，**安装即用**，可用来制作各种 HTML5 场景营销活动页面。
-
-> **`提醒`**
-由于依赖的包比较多，第一次安装耗时很长很长，请稍微耐心等待一下。
-推荐使用淘宝的 npm 镜像进行安装，执行 npm 安装命令时带上 `--registry=https://registry.npm.taobao.org`。
-另外 `node-sass` 和 `phantomjs` 这两个包需要编译，可以设置 `SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/`
-和 `PHANTOMJS_CDNURL=https://npm.taobao.org/mirrors/phantomjs/`，安装已经编译好的版本。
-
+Translations: [简体中文](https://github.com/l-zhi/cherub/doc/README.zh_CN.md)
 
 ```sh
-# 全局安装 Node >= 6
+# Node >= 6
 # mac/linux
-$ SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/ PHANTOMJS_CDNURL=https://npm.taobao.org/mirrors/phantomjs/ npm install -g cherub --registry=https://registry.npm.taobao.org
-# windows
-$ npm install -g cherub --registry=https://registry.npm.taobao.org --SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/ --PHANTOMJS_CDNURL=https://npm.taobao.org/mirrors/phantomjs/
+sudo install -g cherub
 ```
 
-## 使用
+## Usage
 
 ```sh
-# 初始化项目
-$ cherub create demo -t base # or cherub create pwa-demo -t pwa 暂时提供两种模板 base（基础） 和 pwa（渐进式）
+# init
+$ cherub create # or cherub create demo -t base[pwa] two templates supported
 
-# 安装依赖
+# install
 $ cd demo && npm install
 
-# 开发运行
+# run
 $ cherub start
 
-# 打包
+# build
 $ cherub build
 
-# 查看 help
+# help
 $ cherub --help
 ```
 
-## 介绍
+## Contents
 
-### 主要功能
+### What’s Included?
 
-- 样式热加载
-- Autoprefixer 前缀补全
-- vm 适配
-- px -> rem 自动转换
-- 雪碧图合成
-- 自动获取图片 width 和 height
-- 部署构建时代码合并压缩
+- Hot reload
+- Autoprefixer
+- `VM` responsive
+- `px` -> `rem` Automatic conversion
+- Image sprites
+- Automatic set images width & height
+- `Typescript` supported
+- `PWA` supported
 
-### 相关组件依赖
+### Dependence
 
-- [Zepto](http://zeptojs.com/) 默认引入
+- [Zepto](http://zeptojs.com/) 
 
-### 基础目录结构
+### Files
 
 ```sh
 .
 ├── package.json
+├── .cherub.js
+├── dist
 └── src
     ├── css
     │   └── app.scss
     ├── img
     ├── index.html
+    ├── offline.html
     └── js
-        └── main.js
+        ├── index.js
+        └── sw.js
 ```
 
-## 许可
+## License
 
-MIT
+cherub is open source software [MIT](https://opensource.org/licenses/MIT)
