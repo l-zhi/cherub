@@ -6,7 +6,7 @@
 
 cherub - a professional front-end templates generator to help you getting started with a new project based on HTML5 Boilerplate, also support Typescript, include `base template` & `PWA template`。
 
-Translations: [简体中文](https://github.com/l-zhi/cherub/doc/README.zh_CN.md)
+Translations: [简体中文](https://github.com/l-zhi/cherub/blob/master/doc/README.zh_CN.md)
 
 ```sh
 # Node >= 6
