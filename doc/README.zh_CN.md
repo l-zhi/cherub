@@ -17,9 +17,9 @@ cherub - 面向开发者的 HTML5 构建工具，**安装即用**，可用来制
 ```sh
 # 全局安装 Node >= 6
 # mac/linux
-$ SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/ PHANTOMJS_CDNURL=https://npm.taobao.org/mirrors/phantomjs/ npm install -g cherub --registry=https://registry.npm.taobao.org
+$ SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/ PHANTOMJS_CDNURL=https://npm.taobao.org/mirrors/phantomjs/ sudo npm install -g cherub --registry=https://registry.npm.taobao.org
 # windows
-$ npm install -g cherub --registry=https://registry.npm.taobao.org --SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/ --PHANTOMJS_CDNURL=https://npm.taobao.org/mirrors/phantomjs/
+$ sudo npm install -g cherub --registry=https://registry.npm.taobao.org --SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/ --PHANTOMJS_CDNURL=https://npm.taobao.org/mirrors/phantomjs/
 ```
 
 ## 使用

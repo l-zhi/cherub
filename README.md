@@ -11,7 +11,7 @@ Translations: [简体中文](https://github.com/l-zhi/cherub/blob/master/doc/REA
 ```sh
 # Node >= 6
 # mac/linux
-sudo install -g cherub
+sudo npm install -g cherub
 ```
 
 ## Usage
